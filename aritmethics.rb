@@ -8,7 +8,7 @@ def problem
 
   puts " ***********************************************************"
   puts " ***********************************************************"
-  puts " ** This is a simple mental aritmethics training program. **"
+  puts " ** This is a simple mental arithmetics training program. **"
   puts " ** You need to answer correctly in order to proceed.     **"
   puts " ** You get 2 points from each correct answer.            **"
   puts " ** An incorrect answer will terminate the program.       **"
@@ -38,7 +38,7 @@ def problem
       a = -20
       b = 20
     end
-    if score == 200
+    if score == 100
       puts " ***********************************************************"
       puts " ***********************************************************"
       puts " **                     LEVEL 4                           **"
@@ -47,7 +47,7 @@ def problem
       a = -50
       b = 50
     end
-    if score > 300
+    if score == 300
       puts " ***********************************************************"
       puts " ***********************************************************"
       puts " **                    LEVEL INSANE                       **"
@@ -65,7 +65,7 @@ def problem
     xString =""
     yString=""
 
-    #aritmethics operators for printing and calculation
+    #arithmetics operators for printing and calculation
     case operator
     when 1
       sign = "+"
